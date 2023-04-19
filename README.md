@@ -1,4 +1,4 @@
-# Puck: A Self Referential and Infastructure GPT-4 Experiment 
+# Puck: A Autonmous and Extensible GPT-4 Experiment 
 [![Unit Tests](
 [![Discord Follow](https:)
 [![GitHub Repo stars](https:)
