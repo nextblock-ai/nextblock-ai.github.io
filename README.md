@@ -1,8 +1,8 @@
 # Puck: An Autonmous and Extensible GPT-4 Experiment 
-[![Unit Tests](
-[![Discord Follow](https:)
-[![GitHub Repo stars](https:)
-[![Twitter Follow](https://twitter.com/nextblockai)
+[![Discord Follow](https://dcbadge.vercel.app/api/server/wCkJFveHeF?style=flat)](https://discord.gg/wCkJFveHeF)
+[![Twitter Follow](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40NextBlockAI)](https://twitter.com/nextblockai)
+
+
 
 ## 💡 Get help - [Q&A](https:/) or [Discord 💬]([https://discord.gg/](https://discord.gg/wCkJFveHeF))
 
@@ -57,107 +57,114 @@ Development of this free, open-source project is made possible by all the <a hre
   Team Based Interactions.... Answer each other's questions...
   
   
-# 📋 Installation
+  # 📋 Installation
   
-## 📋 Requirements
+  ## 📋 Requirements
 
-- Environment (pick one)
-  - [VSCode + devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): It has been configured in the .devcontainer folder and can be used directly
-  - Docker
-  - Python 3.10 or later (instructions: [for Windows](https://www.tutorialspoint.com/how-to-install-python-in-windows))
-- [OpenAI API key](https://platform.openai.com/account/api-keys)
-
-
-
-## 💾 Install
+      - Environment (pick one)
+       - [VSCode + devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): It has been configured in the       .devcontainer folder and can be used directly
+     - Docker
+     - Python 3.10 or later (instructions: [for Windows](https://www.tutorialspoint.com/how-to-install-python-in-windows))
+     - [OpenAI API key](https://platform.openai.com/account/api-keys)
 
 
-Before installing Puck, ensure that you have [Node.js](https://nodejs.org/en/) installed on your system.
+  ## 💾 Install
 
-1. Clone this repository to your local machine:
 
-   ```
-   git clone https://github.com/yourusername/puck.git
-   cd puck
-   ```
+    Before installing Puck, ensure that you have [Node.js](https://nodejs.org/en/) installed on your system.
 
-2. Install the required dependencies:
+      1. Clone this repository to your local machine:
 
-   ```
-   npm install
-   ```
+            ```
+            git clone https://github.com/yourusername/puck.git
+            cd puck
+             ```
 
-3. Set up your OpenAI API key by creating a `.env` file in the same directory as the script and adding the following line:
+      2. Install the required dependencies:
 
-   ```
-   OPENAI_KEY=your_openai_api_key_here
-   ```
+            ```
+             npm install
+             ```
 
-   Replace `your_openai_api_key_here` with your actual OpenAI API key.
+      3. Set up your OpenAI API key by creating a `.env` file in the same directory as the script and adding the following line:
 
-4. Run Puck using the following command:
+             ```
+             OPENAI_KEY=your_openai_api_key_here
+             ```
 
-   ```
-   npm start
-   ```
+           ** Replace `your_openai_api_key_here` with your actual OpenAI API key.**
+
+      4. Run Puck using the following command:
+
+             ```
+             npm start
+             ```
    
-## ⚠️ OpenAI API Keys Configuration ⚠️ 
+  ## ⚠️ OpenAI API Keys Configuration ⚠️ 
 
-Obtain your OpenAI API key from: https://platform.openai.com/account/api-keys.
+      Obtain your OpenAI API key from: https://platform.openai.com/account/api-keys.
 
-To use OpenAI API key for Puck, you **NEED** to have billing set up (AKA paid account).
+      To use OpenAI API key for Puck, you **NEED** to have billing set up (AKA paid account).
 
-You can set up paid account at https://platform.openai.com/account/billing/overview.
+      You can set up paid account at https://platform.openai.com/account/billing/overview.
 
-![For OpenAI API key to work, set up paid account at OpenAI API > Billing](./docs/imgs/openai-api-key-billing-paid-account.png)
+      ![For OpenAI API key to work, set up paid account at OpenAI API > Billing](./docs/imgs/openai-api-key-billing-paid-account.png)
 
-#### **PLEASE ENSURE YOU HAVE DONE THIS STEP BEFORE PROCEEDING, OTHERWISE NOTHING WILL WORK!**
+      #### **PLEASE ENSURE YOU HAVE DONE THIS STEP BEFORE PROCEEDING, OTHERWISE NOTHING WILL WORK!**
 
+  
   
   
 # 🗺️ User Guide
   
-  ## Initial Workflow
   
-  ## Advanced WOrkflow
+  ### Initial Workflow
   
-  ## Best Practices 
   
-  ## Prompt Examples
+  ### Advanced WOrkflow
+  
+  
+  ### Best Practices 
+  
+  
+  ### Prompt Examples
+  
+  
+  
+  
 
 # 🔧Functionality
 
-What can you do with Puck?
+  ##What can you do with Puck?
 
-Here's a list of tasks and capabilities that Puck offers to showcase its power and flexibility:
+    Here's a list of tasks and capabilities that Puck offers to showcase its power and flexibility:
 
-1. **File management**: Puck can handle various file-related operations like creating, moving, renaming, and deleting files and directories.
-2. **System information**: Retrieve information about the system, such as hardware details, available resources, and running processes.
-3. **Text processing**: Puck can generate and manipulate text, including searching, filtering, and modifying files or output from other commands.
-4. **Network management**: Perform network diagnostics and tasks, such as checking connectivity, monitoring network traffic, and configuring network settings.
-5. **Software management**: Manage software packages, including installation, removal, and updates.
-6. **User management**: Create, modify, and delete user accounts, as well as manage permissions and groups on the system.
-7. **Task automation**: Automate repetitive tasks by generating scripts or combining multiple commands into a single, more efficient command.
-8. **Code generation**: Generate example code snippets or templates based on user input for various programming languages.
-9. **Troubleshooting**: Diagnose and fix common issues with the system or provide guidance on how to resolve problems.
-10. **Custom command creation**: Create custom commands or aliases for frequently used or complex commands to streamline the user experience.
+    1. **File management**: Puck can handle various file-related operations like creating, moving, renaming, and deleting files and directories.
+    2. **System information**: Retrieve information about the system, such as hardware details, available resources, and running processes.
+    3. **Text processing**: Puck can generate and manipulate text, including searching, filtering, and modifying files or output from other commands.
+    4. **Network management**: Perform network diagnostics and tasks, such as checking connectivity, monitoring network traffic, and configuring network         settings.
+    5. **Software management**: Manage software packages, including installation, removal, and updates.
+    6. **User management**: Create, modify, and delete user accounts, as well as manage permissions and groups on the system.
+    7. **Task automation**: Automate repetitive tasks by generating scripts or combining multiple commands into a single, more efficient command.
+    8. **Code generation**: Generate example code snippets or templates based on user input for various programming languages.
+    9. **Troubleshooting**: Diagnose and fix common issues with the system or provide guidance on how to resolve problems.
+    10. **Custom command creation**: Create custom commands or aliases for frequently used or complex commands to streamline the user experience.
 
-It's worth mentioning that Puck's capabilities are limited only by the power of the OpenAI API and the user's imagination. Users can leverage Puck to interact with their system through natural language, making complex shell operations more accessible and user-friendly.
+    It's worth mentioning that Puck's capabilities are limited only by the power of the OpenAI API and the user's imagination. Users can leverage Puck        to interact with their system through natural language, making complex shell operations more accessible and user-friendly.
 
-## Examples
+  ## Examples
+  
+  Here's an example of a complex task that Puck can potentially solve:
 
+    **Task**: Compare the contents of two directories, generate a report on the differences, and email it.
 
-Here's an example of a complex task that Puck can potentially solve:
+    To accomplish this task using Puck, you would provide a natural language query, like:
 
-**Task**: Compare the contents of two directories, generate a report on the differences, and email it.
+      ```
+      Compare the contents of directory1 and directory2, generate a report highlighting the differences, and email the report to example@example.com.
+      ```
 
-To accomplish this task using Puck, you would provide a natural language query, like:
-
-```
-Compare the contents of directory1 and directory2, generate a report highlighting the differences, and email the report to example@example.com.
-```
-
-Based on this input, Puck can generate and execute a series of shell commands to perform the task as described:
+    Based on this input, Puck can generate and execute a series of shell commands to perform the task as described:
 
 1. Use the `diff` command to compare the contents of the two directories and output the differences to a file named `difference_report.txt`:
 
