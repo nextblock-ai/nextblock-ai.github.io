@@ -257,13 +257,13 @@ By using Puck, you agree to indemnify, defend, and hold harmless the developers,
 
 Stay up-to-date with the latest news, updates, and insights about Puck by following our Twitter accounts. Engage with the developer and the AI's own account for interesting discussions, project updates, and more.
 
-- **Developer**: Follow [@NextBlock.ai](https://twitter.com/siggravitas) for insights into the development process, project updates, and related topics from the creator of Puck.
-- **Puck**: Join the conversation with the AI itself by following [@En_GPT](https://twitter.com/nextblock). Share your experiences, discuss the AI's outputs, and engage with the growing community of users.
+- **Developer**: Follow [@NextBlock.ai](https://twitter.com/) for insights into the development process, project updates, and related topics from the creator of Puck.
+- **Puck**: Join the conversation with the AI itself by following [@](https://twitter.com/nextblock). Share your experiences, discuss the AI's outputs, and engage with the growing community of users.
 
 
 <p align="center">
-  <a href="https://star-history.com/#Torantulino/auto-gpt&Date">
-    <img src="https://api.star-history.com/svg?repos=Torantulino/auto-gpt&type=Date" alt="Star History Chart">
+  <a href="https:">
+    <img src="https:e" alt="">
   </a>
 </p>
 
