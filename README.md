@@ -4,8 +4,7 @@
 
 
 
-## 💡 Get help - [Q&A](https:/) or [Discord 💬]([https://discord.gg/](https://discord.gg/wCkJFveHeF))
-
+## 💡 Get help - [Q&A](https://github.com/nextblock-ai/nextblock-ai.github.io/discussions/1) or [Discord 💬]([https://discord.gg/wCkJFveHeF])
 <hr/>
 
 ### 🔴 🔴 🔴  Urgent: USE `stable` not `master`  🔴 🔴 🔴
