@@ -2,9 +2,9 @@
 [![Unit Tests](
 [![Discord Follow](https:)
 [![GitHub Repo stars](https:)
-[![Twitter Follow](https:)
+[![Twitter Follow](https://twitter.com/nextblockai)
 
-## 💡 Get help - [Q&A](https:/) or [Discord 💬](https://discord.gg/)
+## 💡 Get help - [Q&A](https:/) or [Discord 💬]([https://discord.gg/](https://discord.gg/wCkJFveHeF))
 
 <hr/>
 
@@ -16,9 +16,16 @@ The `master` branch may often be in a **broken** state.
 <hr/>
 
 
-Puck is an experimental open-source application enhancing the capabilities of the GPT-4 language model. This infastructure provides an interface to interact with files on your system, leveraging and extending GPT's capabilities. As one of the first examples of GPT-4 file interface, Puck pushes the boundaries of what is possible with AI.
+Puck is an experimental open-source application enhancing the capabilities of the GPT-4 language model. This infastructure provides an interface to interact with files on your system and automate them to leverage and extend GPT's capabilities. As one of the first examples of GPT-4 file interface, Puck pushes the boundaries of what is possible with AI. Made by the NextBlock team
 
 We use Auto GPT capabilities 
+
+## 🚀 Features
+
+- 🌐 File Interaction with GPT4
+- 💾 Self Referential Prompts
+- 🧠 AI Agent and Person Plug-Ins
+- 🔗 Extenisbility to other systems
 
 
 <h2 align="center"> Demo Upcoming </h2>
@@ -38,48 +45,31 @@ Development of this free, open-source project is made possible by all the <a hre
 
 <p align="center">
 
-## Table of Contents
+# Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
-  - [Modes](#modes)
-  - [Commands](#commands)
-  - [Aliases](#aliases)
+- [User Guide](#userguide)
+- [Functionality](#functionality)
 - [Troubleshooting](#troubleshooting)
-- [License](#license)
+- [License and Limitations](#license)
 
-## 🚀 Features
 
-- 🌐 File Interaction with GPT4
-- 💾 Self Referential Prompts
-- 🧠 Persona Plug-Ins
-- 🔗 Extenisbility to other systems
-
+  Team Based Interactions.... Answer each other's questions...
+  
+  
+# 📋 Installation
+  
 ## 📋 Requirements
 
 - Environment (pick one)
   - [VSCode + devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): It has been configured in the .devcontainer folder and can be used directly
   - Docker
   - Python 3.10 or later (instructions: [for Windows](https://www.tutorialspoint.com/how-to-install-python-in-windows))
-
 - [OpenAI API key](https://platform.openai.com/account/api-keys)
 
 
 
-## ⚠️ OpenAI API Keys Configuration ⚠️ 
-
-Obtain your OpenAI API key from: https://platform.openai.com/account/api-keys.
-
-To use OpenAI API key for Puck, you **NEED** to have billing set up (AKA paid account).
-
-You can set up paid account at https://platform.openai.com/account/billing/overview.
-
-![For OpenAI API key to work, set up paid account at OpenAI API > Billing](./docs/imgs/openai-api-key-billing-paid-account.png)
-
-#### **PLEASE ENSURE YOU HAVE DONE THIS STEP BEFORE PROCEEDING, OTHERWISE NOTHING WILL WORK!**
-
-
-## 💾 Installation
+## 💾 Install
 
 
 Before installing Puck, ensure that you have [Node.js](https://nodejs.org/en/) installed on your system.
@@ -111,9 +101,31 @@ Before installing Puck, ensure that you have [Node.js](https://nodejs.org/en/) i
    npm start
    ```
    
+## ⚠️ OpenAI API Keys Configuration ⚠️ 
 
+Obtain your OpenAI API key from: https://platform.openai.com/account/api-keys.
 
-## 🔧Usage
+To use OpenAI API key for Puck, you **NEED** to have billing set up (AKA paid account).
+
+You can set up paid account at https://platform.openai.com/account/billing/overview.
+
+![For OpenAI API key to work, set up paid account at OpenAI API > Billing](./docs/imgs/openai-api-key-billing-paid-account.png)
+
+#### **PLEASE ENSURE YOU HAVE DONE THIS STEP BEFORE PROCEEDING, OTHERWISE NOTHING WILL WORK!**
+
+  
+  
+# 🗺️ User Guide
+  
+  ## Initial Workflow
+  
+  ## Advanced WOrkflow
+  
+  ## Best Practices 
+  
+  ## Prompt Examples
+
+# 🔧Functionality
 
 What can you do with Puck?
 
@@ -234,6 +246,10 @@ To use the `google_official_search` command, you need to set up your Google API 
 
 _Remember that your free daily custom search quota allows only up to 100 searches. To increase this limit, you need to assign a billing account to the project to profit from up to 10K daily searches._
 
+  # License
+
+Puck is released under the [MIT License](https://opensource.org/licenses/MIT).# Design an application
+
 
 ## ⚠️ Limitations
 
@@ -274,11 +290,14 @@ Stay up-to-date with the latest news, updates, and insights about Puck by follow
 
 To run all tests, run the following command:
 
-## Troubleshooting
+# Troubleshooting
 
 If you encounter issues while using Puck, please ensure that you have installed all the necessary dependencies and have set up your OpenAI API key correctly. If the problem persists, provide any error messages or a detailed description of the unexpected behavior so that we can better assist you.
 
-## License
-
-Puck is released under the [MIT License](https://opensource.org/licenses/MIT).# Design an application
+  ## Common Problems
+  
+  ## Common Solutions
+  
+  ## FAQ
+  
 
