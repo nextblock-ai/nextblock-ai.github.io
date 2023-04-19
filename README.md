@@ -18,6 +18,9 @@ The `master` branch may often be in a **broken** state.
 
 Puck is an experimental open-source application enhancing the capabilities of the GPT-4 language model. This infastructure provides an interface to interact with files on your system, leveraging and extending GPT's capabilities. As one of the first examples of GPT-4 file interface, Puck pushes the boundaries of what is possible with AI.
 
+We use Auto GPT capabilities 
+
+
 <h2 align="center"> Demo Upcoming </h2>
 
 https://media.moddb.com/cache/images/games/1/43/42826/thumb_620x2000/COMING_SOON.jpg
