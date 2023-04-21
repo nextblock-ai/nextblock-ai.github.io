@@ -16,7 +16,7 @@ The `master` branch may often be in a **broken** state.
 <hr/>
 
 
-Puck is an experimental open-source application enhancing the capabilities of the GPT-4 language model. This infastructure provides an interface to interact with files on your system and automate them to leverage and extend GPT's capabilities. As one of the first examples of GPT-4 file interface, Puck pushes the boundaries of what is possible with AI. 
+Puck is an experimental open-source application enhancing the capabilities of the GPT-4 language model. This infastructure provides an interface to interact with files on your system and automate them to leverage and extend GPT's capabilities and allow AI agents to work as a team and manage each other's interactions. As one of the first examples of GPT-4 file interface, Puck pushes the boundaries of what is possible with AI. 
 
 ## 🚀 Features
 
@@ -43,14 +43,16 @@ Demo made by <a href=https://>Team</a>
 - [Functionality](#functionality)
 - [Troubleshooting](#troubleshooting)
 - [License and Limitations](#license)
+- [Prompt Examples](#examples)
 
-
-  Team Based Interactions.... Answer each other's questions...
   
   
-  #Installation
   
-   ## 📋 Requirements
+  
+  # Installation
+  
+  
+   ## 📋 System Requirements
 
       - Environment (pick one)
        - [VSCode + devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): It has been configured in the       .devcontainer folder and can be used directly
@@ -58,6 +60,7 @@ Demo made by <a href=https://>Team</a>
      - Python 3.10 or later (instructions: [for Windows](https://www.tutorialspoint.com/how-to-install-python-in-windows))
      - [OpenAI API key](https://platform.openai.com/account/api-keys)
 
+  
 
    ## 💾 Install
 
@@ -91,7 +94,9 @@ Demo made by <a href=https://>Team</a>
              npm start
              ```
    
-    ## ⚠️ OpenAI API Keys Configuration ⚠️ 
+  
+    ## Configure 
+      ⚠️ OpenAI API Keys Configuration ⚠️ 
 
       Obtain your OpenAI API key from: https://platform.openai.com/account/api-keys.
 
@@ -106,29 +111,80 @@ Demo made by <a href=https://>Team</a>
   
   
   
-# 🗺️ User-Guide
-  
-  
+# 🗺️ User Guide
+    
    ### Initial Workflow
+      
+    Example: Set Basic Persona
+    
+   Step 1: Prompt:Create a file called simplepersona.md that will be used to influence commands. In the file, create instructions that prevent the model from apologizing,pre-ambling and concluding.
+   Step 2: For every command in this sessoin, when "!simple" is input, follow the instructions in "simplepersona.md"
+   Step 3: Run Complete Session as Follows 
   
   
-   ### Advanced WOrkflow
+   ### Advanced Workflow
+    
+    Example: 
   
+  
+   ### Puck Admin Commands
+
+        Puck supports a number of built-in commands for managing and interacting with the shell:
+
+        - `help [topic]`: Display help information for a specific topic.
+        - `$<command>`: Execute a shell command.
+        - `puck <query1> ... <queryn>`: Recursively execute queries with Puck.
+        - `+ <file>`: Run a file of commands.
+        - `!`: Toggle hands-free (autonomous) mode.
+        - `push`: Push message(s) to the conversation.
+        - `pop`: Pop n messages from the conversation.
+        - `ask`: Ask the user a question.
+        - `done`: End the conversation.
+
+        ### Aliases
+
+        Puck allows you to create and manage command aliases for frequently used or complex commands. You can perform the following actions with aliases:
+
+        - `alias-add <alias> <command>`: Add a new alias.
+        - `alias-remove <alias>`: Remove an existing alias.
+        - `alias-update <alias> <command>`: Update an existing alias.
+        - `alias-list`: Display a list of all aliases.
+
+        ### Modes
+
+        Puck has two primary modes of operation:
+
+          1. **Execution mode**: In this mode, Puck generates and executes shell commands based on user input. To toggle execution mode, enter `$` or run Puck with the `--exec` flag:
+
+               ```
+              puck --exec
+              ```
+
+          2. **View-only mode**: In this mode, Puck generates shell commands but does not execute them. This is useful for reviewing and verifying commands before running them. To toggle view-only mode, enter `.` or run Puck with the `--view` flag:
+
+               ```
+               puck --view
+               ```
+
   
    ### Best Practices 
   
   
-   ### Prompt Examples
   
+  
+  
+   
   
   
   
 
 # 🔧Functionality
 
-    ##What can you do with Puck?
+    ## What can you do with Puck?
+  
+          Puck simplifies the process by allowing users to express their intent in plain language and automating the underlying shell commands. Keep in mind that the generated commands might vary depending on the user's input, system configuration, and the OpenAI API's response.
 
-       Here's a list of tasks and capabilities that Puck offers to showcase its power and flexibility:
+       Tasks and capabilities that Puck offers:
 
        1. **File management**: Puck can handle various file-related operations like creating, moving, renaming, and deleting files and directories.
        2. **System information**: Retrieve information about the system, such as hardware details, available resources, and running processes.
@@ -145,56 +201,39 @@ Demo made by <a href=https://>Team</a>
 
    ## Examples
   
-     Here's an example of a complex task that Puck can potentially solve:
+     Example One: Compare the contents of two directories, generate a report on the differences, and email it.
+      
+     Input: 
 
-        **Task**: Compare the contents of two directories, generate a report on the differences, and email it.
-
-       To accomplish this task using Puck, you would provide a natural language query, like:
-
-          ```
+         ```
          Compare the contents of directory1 and directory2, generate a report highlighting the differences, and email the report to example@example.com.
          ```
 
-       Based on this input, Puck can generate and execute a series of shell commands to perform the task as described:
+     Puck Process: generate and execute a series of shell commands to perform the task as described:
 
-  1.  Use the `diff` command to compare the contents of the two directories and output the differences to a file named `difference_report.txt`:
+          1.  Use the `diff` command to compare the contents of the two directories and output the differences to a file named `difference_report.txt`:
 
-   ```
-   diff -r directory1 directory2 > difference_report.txt
-   ```
+               ```
+               diff -r directory1 directory2 > difference_report.txt
+               ```
 
-  2. Install a command-line email client like `mutt`, if it's not already installed:
+          2. Install a command-line email client like `mutt`, if it's not already installed:
 
-   ```
-   sudo apt-get install mutt
-   ```
+               ```
+               sudo apt-get install mutt
+               ```
 
-  3. Send the generated report `difference_report.txt` as an email attachment to the specified email address:
+          3. Send the generated report `difference_report.txt` as an email attachment to the specified email address:
 
-   ```
-   mutt -s "Directory Comparison Report" example@example.com -a difference_report.txt < /dev/null
-   ```
-
-                                                                                                 
-Puck simplifies the process by allowing users to express their intent in plain language and automating the underlying shell commands. Keep in mind that the generated commands might vary depending on the user's input, system configuration, and the OpenAI API's response.
-
+               ```
+               mutt -s "Directory Comparison Report" example@example.com -a difference_report.txt < /dev/null
+               ```
 
                                                                                                  
-### Modes
 
-    Puck has two primary modes of operation:
 
-      1. **Execution mode**: In this mode, Puck generates and executes shell commands based on user input. To toggle execution mode, enter `$` or run Puck with the `--exec` flag:
 
-           ```
-          puck --exec
-          ```
-
-      2. **View-only mode**: In this mode, Puck generates shell commands but does not execute them. This is useful for reviewing and verifying commands before running them. To toggle view-only mode, enter `.` or run Puck with the `--view` flag:
-
-           ```
-           puck --view
-           ```
+                                                                                                 
 
 
 
@@ -204,28 +243,6 @@ Puck simplifies the process by allowing users to express their intent in plain l
 ### Docker
 
 
-### Commands
-
-Puck supports a number of built-in commands for managing and interacting with the shell:
-
-- `help [topic]`: Display help information for a specific topic.
-- `$<command>`: Execute a shell command.
-- `puck <query1> ... <queryn>`: Recursively execute queries with Puck.
-- `+ <file>`: Run a file of commands.
-- `!`: Toggle hands-free (autonomous) mode.
-- `push`: Push message(s) to the conversation.
-- `pop`: Pop n messages from the conversation.
-- `ask`: Ask the user a question.
-- `done`: End the conversation.
-
-### Aliases
-
-Puck allows you to create and manage command aliases for frequently used or complex commands. You can perform the following actions with aliases:
-
-- `alias-add <alias> <command>`: Add a new alias.
-- `alias-remove <alias>`: Remove an existing alias.
-- `alias-update <alias> <command>`: Update an existing alias.
-- `alias-list`: Display a list of all aliases.
 
 
 ## 🔍 Google API Keys Configuration
@@ -290,14 +307,55 @@ Stay up-to-date with the latest news, updates, and insights about Puck by follow
 
 To run all tests, run the following command:
 
+                 
+                 
+                 
 # Troubleshooting
 
-If you encounter issues while using Puck, please ensure that you have installed all the necessary dependencies and have set up your OpenAI API key correctly. If the problem persists, provide any error messages or a detailed description of the unexpected behavior so that we can better assist you.
+          If you encounter issues while using Puck, please ensure that you have installed all the necessary dependencies and have set up your OpenAI API key correctly. If the problem persists, provide any error messages or a detailed description of the unexpected behavior so that we can better assist you.
 
-  ## Common Problems
-  
-  ## Common Solutions
-  
-  ## FAQ
+      ## Common Problems
+
+      ## Common Solutions
+
+      ## FAQ
+                 
+                 
+ # Advanced Workflow    
+ 
+ Example: Content Brainstorming and Outlines with AI Team 
+                 
+ - Basic Persona 
+ - Brainstorm Persona
+ - Working Persona 1
+ - Working Persona 2   
+ - Recording Persona                 
+ - Managing Persona 
+
+                 
+1. Set up the basic persona to manage basic interaction with GPT named "simple.md"
+2. Set up a working persona to accomplish the main task, named "prompt.md"
+3. Set up a brainstorming persona to step away from the work and expiriment, named "think.md"
+4. Set up a managing persona to update the other personas, named "update.md"
+
+Call Personas with...                 
+ - Basic Persona  (!simple) 
+ - Brainstorm Persona (!think)
+ - Working Persona (!prompt) 
+ - Recording Persona (!record)                 
+ - Managing Persona (!update) 
+                 
+                
+Working Persona 1 : I am brainstorming ideas to come up with a blog posts. I will give you input ideas and you will give me lists with descriptions.
+
+Recording Persona: When I type !record, append the content in file "brainstorming" with what output preceded the !record
+
+Brainstorm Persona: Forget all other commands 
+
+
+                 
+                 
+                 
+              
   
 
