@@ -1,5 +1,5 @@
 # Puck: An Autonmous and Extensible GPT-4 Experiment 
-## built by NextBlock
+### built by NextBlock
 [![Discord Follow](https://dcbadge.vercel.app/api/server/wCkJFveHeF?style=flat)](https://discord.gg/wCkJFveHeF)
 [![Twitter Follow](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40NextBlockAI)](https://twitter.com/nextblockai)
 
@@ -16,9 +16,7 @@ The `master` branch may often be in a **broken** state.
 <hr/>
 
 
-Puck is an experimental open-source application enhancing the capabilities of the GPT-4 language model. This infastructure provides an interface to interact with files on your system and automate them to leverage and extend GPT's capabilities. As one of the first examples of GPT-4 file interface, Puck pushes the boundaries of what is possible with AI. Made by the NextBlock team
-
-We use Auto GPT capabilities 
+Puck is an experimental open-source application enhancing the capabilities of the GPT-4 language model. This infastructure provides an interface to interact with files on your system and automate them to leverage and extend GPT's capabilities. As one of the first examples of GPT-4 file interface, Puck pushes the boundaries of what is possible with AI. 
 
 ## 🚀 Features
 
@@ -34,13 +32,6 @@ https://media.moddb.com/cache/images/games/1/43/42826/thumb_620x2000/COMING_SOON
 
 Demo made by <a href=https://>Team</a>
 
-<h2 align="center"> 💖 Help Fund Pucks's Development 💖</h2>
-<p align="center">
-If you can spare a coffee, you can help to cover the costs of developing Puck and help push the boundaries of what is possible.
-Your support is greatly appreciated
-Development of this free, open-source project is made possible by all the <a href="https</a> and <a href="https:</a>. If you'd like to sponsor this project and have your avatar or company logo appear below <a href="https:/">click here</a>.
-</p>
-
 <p align="center">
 
 <p align="center">
@@ -48,7 +39,7 @@ Development of this free, open-source project is made possible by all the <a hre
 # Table of Contents
 
 - [Installation](#installation)
-- [User Guide](#userguide)
+- [User Guide](#user-guide)
 - [Functionality](#functionality)
 - [Troubleshooting](#troubleshooting)
 - [License and Limitations](#license)
@@ -57,9 +48,9 @@ Development of this free, open-source project is made possible by all the <a hre
   Team Based Interactions.... Answer each other's questions...
   
   
-  # 📋 Installation
+  #Installation
   
-  ## 📋 Requirements
+   ## 📋 Requirements
 
       - Environment (pick one)
        - [VSCode + devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): It has been configured in the       .devcontainer folder and can be used directly
@@ -68,7 +59,7 @@ Development of this free, open-source project is made possible by all the <a hre
      - [OpenAI API key](https://platform.openai.com/account/api-keys)
 
 
-  ## 💾 Install
+   ## 💾 Install
 
 
     Before installing Puck, ensure that you have [Node.js](https://nodejs.org/en/) installed on your system.
@@ -100,7 +91,7 @@ Development of this free, open-source project is made possible by all the <a hre
              npm start
              ```
    
-  ## ⚠️ OpenAI API Keys Configuration ⚠️ 
+    ## ⚠️ OpenAI API Keys Configuration ⚠️ 
 
       Obtain your OpenAI API key from: https://platform.openai.com/account/api-keys.
 
@@ -115,19 +106,19 @@ Development of this free, open-source project is made possible by all the <a hre
   
   
   
-# 🗺️ User Guide
+# 🗺️ User-Guide
   
   
-  ### Initial Workflow
+   ### Initial Workflow
   
   
-  ### Advanced WOrkflow
+   ### Advanced WOrkflow
   
   
-  ### Best Practices 
+   ### Best Practices 
   
   
-  ### Prompt Examples
+   ### Prompt Examples
   
   
   
@@ -135,73 +126,75 @@ Development of this free, open-source project is made possible by all the <a hre
 
 # 🔧Functionality
 
-  ##What can you do with Puck?
+    ##What can you do with Puck?
 
-    Here's a list of tasks and capabilities that Puck offers to showcase its power and flexibility:
+       Here's a list of tasks and capabilities that Puck offers to showcase its power and flexibility:
 
-    1. **File management**: Puck can handle various file-related operations like creating, moving, renaming, and deleting files and directories.
-    2. **System information**: Retrieve information about the system, such as hardware details, available resources, and running processes.
-    3. **Text processing**: Puck can generate and manipulate text, including searching, filtering, and modifying files or output from other commands.
-    4. **Network management**: Perform network diagnostics and tasks, such as checking connectivity, monitoring network traffic, and configuring network         settings.
-    5. **Software management**: Manage software packages, including installation, removal, and updates.
-    6. **User management**: Create, modify, and delete user accounts, as well as manage permissions and groups on the system.
-    7. **Task automation**: Automate repetitive tasks by generating scripts or combining multiple commands into a single, more efficient command.
-    8. **Code generation**: Generate example code snippets or templates based on user input for various programming languages.
-    9. **Troubleshooting**: Diagnose and fix common issues with the system or provide guidance on how to resolve problems.
-    10. **Custom command creation**: Create custom commands or aliases for frequently used or complex commands to streamline the user experience.
+       1. **File management**: Puck can handle various file-related operations like creating, moving, renaming, and deleting files and directories.
+       2. **System information**: Retrieve information about the system, such as hardware details, available resources, and running processes.
+       3. **Text processing**: Puck can generate and manipulate text, including searching, filtering, and modifying files or output from other commands.
+       4. **Network management**: Perform network diagnostics and tasks, such as checking connectivity, monitoring network traffic, and configuring network         settings.
+       5. **Software management**: Manage software packages, including installation, removal, and updates.
+       6. **User management**: Create, modify, and delete user accounts, as well as manage permissions and groups on the system.
+       7. **Task automation**: Automate repetitive tasks by generating scripts or combining multiple commands into a single, more efficient command.
+       8. **Code generation**: Generate example code snippets or templates based on user input for various programming languages.
+       9. **Troubleshooting**: Diagnose and fix common issues with the system or provide guidance on how to resolve problems.
+       10. **Custom command creation**: Create custom commands or aliases for frequently used or complex commands to streamline the user experience.
 
     It's worth mentioning that Puck's capabilities are limited only by the power of the OpenAI API and the user's imagination. Users can leverage Puck        to interact with their system through natural language, making complex shell operations more accessible and user-friendly.
 
-  ## Examples
+   ## Examples
   
-  Here's an example of a complex task that Puck can potentially solve:
+     Here's an example of a complex task that Puck can potentially solve:
 
-    **Task**: Compare the contents of two directories, generate a report on the differences, and email it.
+        **Task**: Compare the contents of two directories, generate a report on the differences, and email it.
 
-    To accomplish this task using Puck, you would provide a natural language query, like:
+       To accomplish this task using Puck, you would provide a natural language query, like:
 
-      ```
-      Compare the contents of directory1 and directory2, generate a report highlighting the differences, and email the report to example@example.com.
-      ```
+          ```
+         Compare the contents of directory1 and directory2, generate a report highlighting the differences, and email the report to example@example.com.
+         ```
 
-    Based on this input, Puck can generate and execute a series of shell commands to perform the task as described:
+       Based on this input, Puck can generate and execute a series of shell commands to perform the task as described:
 
-1. Use the `diff` command to compare the contents of the two directories and output the differences to a file named `difference_report.txt`:
+  1.  Use the `diff` command to compare the contents of the two directories and output the differences to a file named `difference_report.txt`:
 
    ```
    diff -r directory1 directory2 > difference_report.txt
    ```
 
-2. Install a command-line email client like `mutt`, if it's not already installed:
+  2. Install a command-line email client like `mutt`, if it's not already installed:
 
    ```
    sudo apt-get install mutt
    ```
 
-3. Send the generated report `difference_report.txt` as an email attachment to the specified email address:
+  3. Send the generated report `difference_report.txt` as an email attachment to the specified email address:
 
    ```
    mutt -s "Directory Comparison Report" example@example.com -a difference_report.txt < /dev/null
    ```
 
+                                                                                                 
 Puck simplifies the process by allowing users to express their intent in plain language and automating the underlying shell commands. Keep in mind that the generated commands might vary depending on the user's input, system configuration, and the OpenAI API's response.
 
 
+                                                                                                 
 ### Modes
 
-Puck has two primary modes of operation:
+    Puck has two primary modes of operation:
 
-1. **Execution mode**: In this mode, Puck generates and executes shell commands based on user input. To toggle execution mode, enter `$` or run Puck with the `--exec` flag:
+      1. **Execution mode**: In this mode, Puck generates and executes shell commands based on user input. To toggle execution mode, enter `$` or run Puck with the `--exec` flag:
 
-   ```
-   puck --exec
-   ```
+           ```
+          puck --exec
+          ```
 
-2. **View-only mode**: In this mode, Puck generates shell commands but does not execute them. This is useful for reviewing and verifying commands before running them. To toggle view-only mode, enter `.` or run Puck with the `--view` flag:
+      2. **View-only mode**: In this mode, Puck generates shell commands but does not execute them. This is useful for reviewing and verifying commands before running them. To toggle view-only mode, enter `.` or run Puck with the `--view` flag:
 
-   ```
-   puck --view
-   ```
+           ```
+           puck --view
+           ```
 
 
 
